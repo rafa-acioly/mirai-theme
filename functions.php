@@ -54,6 +54,14 @@ function clean_menu() {
 }
 add_action ('admin_menu', 'clean_menu');
 
+/**
+ * Remove o plugin Advanced custom field do menu
+ */
+function remove_menus () {
+  remove_menu_page( 'edit.php?post_type=acf' );
+}
+add_action( 'admin_init', 'remove_menus' );
+
 // Clear Menu Bar
 function clean_bar() {
     global $wp_admin_bar;
