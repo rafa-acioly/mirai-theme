@@ -91,3 +91,49 @@ function single_screen_cols( $columns ) { $columns['dashboard'] = 1; return $col
 add_filter( 'screen_layout_columns', 'single_screen_cols' );
 function single_screen_dash_cols(){return 1;}
 add_filter( 'get_user_option_screen_layout_dashboard', 'single_screen_dash_cols' );
+
+
+function wpdocs_register_my_custom_menu_page() {
+   add_menu_page(
+      null,
+      'Conteúdo Geral',
+      'edit_posts',
+      '/post.php?post=2&action=edit',
+      null,
+      'dashicons-media-default',
+      2
+  );
+}
+add_action( 'admin_menu', 'wpdocs_register_my_custom_menu_page' );
+
+function my_login_head() {
+  echo "
+  <style>
+  body.login #login h1 a {
+    background: url('http://placehold.it/350x350') no-repeat scroll center top transparent;
+    width: 100%;
+    height: 120px;
+  }
+  </style>
+  ";
+}
+add_action("login_head", "my_login_head");
+
+
+function rm_widgets_dash() {
+  global $wp_meta_boxes;
+
+  unset($wp_meta_boxes['dashboard']['side']['core']['dashboard_quick_press']);
+  unset($wp_meta_boxes['dashboard']['normal']['core']['dashboard_incoming_links']);
+  unset($wp_meta_boxes['dashboard']['normal']['core']['dashboard_recent_comments']);
+  unset($wp_meta_boxes['dashboard']['normal']['core']['dashboard_activity']);
+  unset($wp_meta_boxes['dashboard']['side']['core']['dashboard_primary']);
+  remove_action('welcome_panel', 'wp_welcome_panel');
+  // unset($wp_meta_boxes['dashboard']['normal']['core']['dashboard_right_now']);
+  // unset($wp_meta_boxes['dashboard']['normal']['core']['dashboard_plugins']);
+  // unset($wp_meta_boxes['dashboard']['normal']['core']['dashboard_recent_drafts']);
+  // unset($wp_meta_boxes['dashboard']['side']['core']['dashboard_secondary']);
+
+}
+
+add_action('wp_dashboard_setup', 'rm_widgets_dash' );
