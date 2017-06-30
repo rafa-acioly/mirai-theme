@@ -20,33 +20,32 @@
 
 <div class="slider hero">
     <div class="siema">
-        <div>
-            <img src="https://source.unsplash.com/random/1920x500" alt="">
+        <div class="item has-text-centered">
+            <h1 class="title">
+                Viemos para revolucionar <br>
+                a culinária japonesa <br>
+                em Mogi das Cruzes.
+            </h1>
         </div>
         <div>
-            <img src="https://source.unsplash.com/random/1920x500" alt="">
+            <img src="https://source.unsplash.com/random/1920x800" alt="">
         </div>
         <div>
-            <img src="https://source.unsplash.com/random/1920x500" alt="">
+            <img src="https://source.unsplash.com/random/1920x800" alt="">
         </div>
         <div>
-            <img src="https://source.unsplash.com/random/1920x500" alt="">
+            <img src="https://source.unsplash.com/random/1920x800" alt="">
         </div>
         <div>
-            <img src="https://source.unsplash.com/random/1920x500" alt="">
+            <img src="https://source.unsplash.com/random/1920x800" alt="">
         </div>
     </div>
-    <div class="controls">
-        <button class="button prev">
-            <span class="icon"><i class="fa fa-angle-left"></i></span>
-        </button>
-        <button class="button down">
-            <span class="icon"><i class="fa fa-angle-down"></i></span>
-        </button>
-        <button class="button next">
-            <span class="icon"><i class="fa fa-angle-right"></i></span>
-        </button>
-    </div>
+    <button class="button prev">
+        <span class="icon"><i class="fa fa-angle-left"></i></span>
+    </button>
+    <button class="button next">
+        <span class="icon"><i class="fa fa-angle-right"></i></span>
+    </button>
 </div>
 
 

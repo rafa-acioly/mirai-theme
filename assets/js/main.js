@@ -1,7 +1,9 @@
 $(document).ready(function () {
 
   var siema = new Siema({
-    loop: true
+    duration: 200,
+    loop: true,
+    draggable: false
   });
 
   $('.prev').on('click', function () {

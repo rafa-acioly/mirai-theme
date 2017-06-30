@@ -32,21 +32,32 @@ License URI:        http://opensource.org/licenses/MIT
  */
 
 .home .slider {
-    position: relative;
     display: flex;
     justify-content: center;
 }
 
-.home .slider .controls {
-    position: absolute;
-    width: 100%;
-    height: 100%;
+.home .slider .item {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 3rem;
+    padding: 6rem;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    height: 100%;
 }
 
-.home .slider .controls .down {
+.home .slider .item:first-child {
+    background-image: url('assets/images/g9553.png');
+}
+
+.home .slider .prev {
+    align-self: flex-start;
+    position: absolute;
+    margin: 0 2rem;
+}
+
+.home .slider .next {
     align-self: flex-end;
+    position: absolute;
+    margin: 0 -2rem;
 }
