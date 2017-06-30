@@ -26,14 +26,21 @@
     <img src="https://unsplash.it/1920/800?random=5" alt="">
     <div class="controls">
         <div class="prev">
-            <a href="">
+            <a href="#">
                 <span class="icon">
                     <i class="fa fa-angle-left"></i>
                 </span>
             </a>
         </div>
+        <div class="down">
+            <a href="#">
+                <span class="icon">
+                    <i class="fa fa-angle-down"></i>
+                </span>
+            </a>
+        </div>
         <div class="next">
-            <a href="">
+            <a href="#">
                 <span class="icon">
                     <i class="fa fa-angle-right"></i>
                 </span>

@@ -41,13 +41,24 @@ License URI:        http://opensource.org/licenses/MIT
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 3rem;
+    padding: 1rem 3rem;
 }
 
 .home .hero[data-simple-slider]
 .controls .prev .icon .fa {
     font-size: 2rem;
 }
+
+.home .hero[data-simple-slider]
+.controls .down {
+    align-self: flex-end;
+}
+
+.home .hero[data-simple-slider]
+.controls .down .icon .fa {
+    font-size: 2rem;
+}
+
 .home .hero[data-simple-slider]
 .controls .next .icon .fa {
     font-size: 2rem;
