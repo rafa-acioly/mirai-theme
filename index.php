@@ -6,6 +6,13 @@
       <!-- Adicionar as imagens e textos do primeiro bloco -->
     </div>
   </div>
+  <div class="hero-foot has-text-centered">
+      <a href="">
+        <span class="icons">
+          <i class="fa fa-angle-down"></i>
+        </span>
+      </a>
+  </div>
 </div>
 
 <nav class="nav">

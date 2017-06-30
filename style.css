@@ -8,3 +8,13 @@ Author URI:         https://github.com/rafa-acioly/
 License:            MIT License
 License URI:        http://opensource.org/licenses/MIT
 */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+/**
+ * Configuração do hero principal
+ */
+.home .hero
+.hero-foot {
+    padding: 1rem;
+}
