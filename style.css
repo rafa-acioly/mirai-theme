@@ -30,36 +30,23 @@ License URI:        http://opensource.org/licenses/MIT
 /**
  * Configurações do slider
  */
-.home .hero[data-simple-slider] { 
-    min-height: 55vh;
+
+.home .slider {
+    position: relative;
+    display: flex;
+    justify-content: center;
 }
-.home .hero[data-simple-slider] .controls {
-    z-index: 3;
+
+.home .slider .controls {
     position: absolute;
-    min-width: 100%;
-    min-height: 100%;
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 3rem;
 }
 
-.home .hero[data-simple-slider]
-.controls .prev .icon .fa {
-    font-size: 2rem;
-}
-
-.home .hero[data-simple-slider]
-.controls .down {
+.home .slider .controls .down {
     align-self: flex-end;
-}
-
-.home .hero[data-simple-slider]
-.controls .down .icon .fa {
-    font-size: 2rem;
-}
-
-.home .hero[data-simple-slider]
-.controls .next .icon .fa {
-    font-size: 2rem;
 }

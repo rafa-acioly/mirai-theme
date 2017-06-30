@@ -18,34 +18,34 @@
 <?php get_template_part('components/nav', 'nav'); ?>
 
 
-<div class="hero is-medium" data-simple-slider>
-    <img src="https://unsplash.it/1920/800?random=1" alt="">
-    <img src="https://unsplash.it/1920/800?random=2" alt="">
-    <img src="https://unsplash.it/1920/800?random=3" alt="">
-    <img src="https://unsplash.it/1920/800?random=4" alt="">
-    <img src="https://unsplash.it/1920/800?random=5" alt="">
+<div class="slider hero">
+    <div class="siema">
+        <div>
+            <img src="https://source.unsplash.com/random/1920x500" alt="">
+        </div>
+        <div>
+            <img src="https://source.unsplash.com/random/1920x500" alt="">
+        </div>
+        <div>
+            <img src="https://source.unsplash.com/random/1920x500" alt="">
+        </div>
+        <div>
+            <img src="https://source.unsplash.com/random/1920x500" alt="">
+        </div>
+        <div>
+            <img src="https://source.unsplash.com/random/1920x500" alt="">
+        </div>
+    </div>
     <div class="controls">
-        <div class="prev">
-            <a href="#">
-                <span class="icon">
-                    <i class="fa fa-angle-left"></i>
-                </span>
-            </a>
-        </div>
-        <div class="down">
-            <a href="#">
-                <span class="icon">
-                    <i class="fa fa-angle-down"></i>
-                </span>
-            </a>
-        </div>
-        <div class="next">
-            <a href="#">
-                <span class="icon">
-                    <i class="fa fa-angle-right"></i>
-                </span>
-            </a>
-        </div>
+        <button class="button prev">
+            <span class="icon"><i class="fa fa-angle-left"></i></span>
+        </button>
+        <button class="button down">
+            <span class="icon"><i class="fa fa-angle-down"></i></span>
+        </button>
+        <button class="button next">
+            <span class="icon"><i class="fa fa-angle-right"></i></span>
+        </button>
     </div>
 </div>
 
