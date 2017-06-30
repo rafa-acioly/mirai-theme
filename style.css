@@ -14,7 +14,41 @@ License URI:        http://opensource.org/licenses/MIT
 /**
  * Configuração do hero principal
  */
-.home .hero
-.hero-foot {
+.home .section .hero-foot {
     padding: 1rem;
+}
+
+.home .section a.button-primary {
+    background-color: #ef4f23;
+    color: #ffffff;
+}
+
+.home .section a.button-primary .fa {
+    color: rgb(247, 167 ,145);
+}
+
+/**
+ * Configurações do slider
+ */
+.home .hero[data-simple-slider] { 
+    min-height: 55vh;
+}
+.home .hero[data-simple-slider] .controls {
+    z-index: 3;
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3rem;
+}
+
+.home .hero[data-simple-slider]
+.controls .prev .icon .fa {
+    font-size: 2rem;
+}
+.home .hero[data-simple-slider]
+.controls .next .icon .fa {
+    font-size: 2rem;
 }
