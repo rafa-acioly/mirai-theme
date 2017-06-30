@@ -14,16 +14,16 @@ License URI:        http://opensource.org/licenses/MIT
 /**
  * Configuração do hero principal
  */
-.home .section .hero-foot {
-    padding: 1rem;
+.home .cardapio-options .title {
+    /*margin-bottom: 2.5rem;*/
 }
 
-.home .section a.button-primary {
+.home .cardapio-options a.button-primary {
     background-color: #ef4f23;
     color: #ffffff;
 }
 
-.home .section a.button-primary .fa {
+.home .cardapio-options a.button-primary .fa {
     color: rgb(247, 167 ,145);
 }
 

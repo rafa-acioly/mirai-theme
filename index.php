@@ -50,28 +50,37 @@
 </div>
 
 
-<section class="section">
-    <div class="columns">
-        <div class="column is-half is-offset-one-quarter has-text-centered">
-            <h1 class="title is-3">
-                No Mirai ou na sua casa <span>o maior cardápio japonês da região.</span>
-            </h1>
-            <h2 class="subtitle is-5">
-                Escolha abaixo uma das opções do cardápio
-            </h2>
-            <a href="" class="button button-primary">
-                Cardápio completo
-                <span class="icon">
-                    <i class="fa fa-angle-right"></i>
-                </span>
-            </a>
-            <a href="" class="button button-primary">
-                Cardápio Delivery
-                <span class="icon">
-                    <i class="fa fa-motorcycle"></i>
-                </span>
-            </a>
+<section class="hero cardapio-options">
+    <div class="hero-body">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-half is-offset-one-quarter has-text-centered">
+                    <h1 class="title is-3 is-spaced">
+                        No Mirai ou na sua casa <span>o maior cardápio japonês da região.</span>
+                    </h1>
+                    <h2 class="subtitle is-5">
+                        Escolha abaixo uma das opções do cardápio
+                    </h2>
+                    <a href="#" class="button button-primary">
+                        Cardápio completo
+                        <span class="icons">
+                            <i class="fa fa-angle-right fa-fw"></i>
+                        </span>
+                    </a>
+                    <a href="#" class="button button-primary">
+                        Cardápio Delivery
+                        <span class="icons">
+                            <i class="fa fa-motorcycle fa-fw"></i>
+                        </span>
+                    </a>
+                </div>
+            </div>
         </div>
+    </div>
+    <div class="hero-foot has-text-centered">
+        <a href="#">
+            <span class="icons"><i class="fa fa-angle-down"></i></span>
+        </a>
     </div>
 </section>
 
