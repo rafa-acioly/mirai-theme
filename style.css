@@ -50,3 +50,15 @@ License URI:        http://opensource.org/licenses/MIT
 .home main.content {
     background-color: #FFF8F0;
 }
+
+
+.home section.hero {
+    background-color: #13131D;
+    align-items: center;
+}
+
+.home section.hero 
+.columns .column .line-separator {
+    border: .2px solid #D04F2B;
+    margin-bottom: 1.5rem;
+}

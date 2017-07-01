@@ -116,9 +116,61 @@
             </div>
         </div>
         <div class="column is-6">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14642.661967771613!2d-46.520577450000005!3d-23.43644785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1498874348875" width=800" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14642.661967771613!2d-46.520577450000005!3d-23.43644785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1498874348875" width="800" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
     </div>
 </main>
+
+<section class="hero is-fullheight">
+    <div class="container">
+        <div class="columns is-multiline">
+            <div class="column is-4 is-offset-4 has-text-centered">
+                <span class="icon">
+                    <i class="fa fa-comments-o"></i>
+                </span>
+                <h1 class="title is-2">Fale com o Mirai!</h1>
+                <h2 class="subtitle">Sempre pronto para receber seu feedback.</h2>
+                <form action="">
+                    <div class="field">
+                        <p class="control has-icons-left">
+                            <input type="text" class="input" placeholder="Nome">
+                            <span class="icon is-small is-left">
+                                <i class="fa fa-user-o"></i>
+                            </span>
+                        </p>
+                    </div>
+                    <div class="field">
+                        <p class="control has-icons-left">
+                            <input type="text" class="input" placeholder="Email">
+                            <span class="icon is-small is-left">
+                                <i class="fa fa-envelope-o"></i>
+                            </span>
+                        </p>
+                    </div>
+                    <div class="field">
+                        <p class="control has-icons-left">
+                            <textarea name="" id="" cols="30" rows="10" class="textarea" placeholder="Mensagem"></textarea>
+                            <span class="icon is-small is-left">
+                                <i class="fa fa-comment-o"></i>
+                            </span>
+                        </p>
+                    </div>
+                    <div class="field">
+                        <p class="control">
+                            <button type="submit" class="button is-large is-success is-fullwidth">Enviar</button>
+                        </p>
+                    </div>
+                </form>
+            </div>
+            <div class="column is-6 is-offset-one-quarter has-text-centered">
+                <div class="line-separator"></div>
+                <p>
+                    Reservas somente por telefone:
+                    (11) 4796-1818
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
 
 <?php get_footer(); ?>
