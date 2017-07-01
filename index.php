@@ -15,42 +15,18 @@
   </div>
 </div>
 
-<?php get_template_part('components/nav', 'nav'); ?>
-
-
-<div class="slider hero">
-    <div class="siema">
-        <div class="item has-text-centered">
-            <h1 class="title">
-                Viemos para revolucionar <br>
-                a culinária japonesa <br>
-                em Mogi das Cruzes.
-            </h1>
-        </div>
-        <div>
-            <img src="https://source.unsplash.com/random/1920x800" alt="">
-        </div>
-        <div>
-            <img src="https://source.unsplash.com/random/1920x800" alt="">
-        </div>
-        <div>
-            <img src="https://source.unsplash.com/random/1920x800" alt="">
-        </div>
-        <div>
-            <img src="https://source.unsplash.com/random/1920x800" alt="">
+<div class="hero is-fullheight hero-cardapio">
+    <div class="hero-nav">
+        <?php get_template_part('components/nav', 'nav'); ?>
+    </div>
+    <div class="slider">
+        <div class="siema">
+            <div class="item has-text-centered">
+                <img src="http://placehold.it/1920x550" alt="">
+            </div>
         </div>
     </div>
-    <button class="button prev">
-        <span class="icon"><i class="fa fa-angle-left"></i></span>
-    </button>
-    <button class="button next">
-        <span class="icon"><i class="fa fa-angle-right"></i></span>
-    </button>
-</div>
-
-
-<section class="hero cardapio-options">
-    <div class="hero-body">
+    <section class="hero-foot">
         <div class="container">
             <div class="columns">
                 <div class="column is-half is-offset-one-quarter has-text-centered">
@@ -72,15 +48,16 @@
                             <i class="fa fa-motorcycle fa-fw"></i>
                         </span>
                     </a>
+                    <br>
+                    <a href="#" class="keep-scrolling">
+                        <span class="icons">
+                            <i class="fa fa-angle-down"></i>
+                        </span>
+                    </a>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="hero-foot has-text-centered">
-        <a href="#">
-            <span class="icons"><i class="fa fa-angle-down"></i></span>
-        </a>
-    </div>
-</section>
+    </section>
+</div>
 
 <?php get_footer(); ?>

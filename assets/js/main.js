@@ -1,6 +1,7 @@
 $(document).ready(function () {
 
   var siema = new Siema({
+    selector: '.hero .hero-body .slider .siema',
     duration: 200,
     loop: true,
     draggable: false
@@ -12,13 +13,6 @@ $(document).ready(function () {
 
   $('.next').on('click', function () {
     siema.next();
-  });
-
-  var slider = simpleslider.getSlider({
-      container: document.querySelector('[data-simple-slider]'),
-      children: document.querySelectorAll('[data-simple-slider] img'),
-      transitionTime: 1,
-      delay: 5.5
   });
 
   $('[data-scroll]').on('click', function () {

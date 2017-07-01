@@ -14,50 +14,29 @@ License URI:        http://opensource.org/licenses/MIT
 /**
  * Configuração do hero principal
  */
-.home .cardapio-options .title {
-    /*margin-bottom: 2.5rem;*/
-}
 
-.home .cardapio-options a.button-primary {
-    background-color: #ef4f23;
-    color: #ffffff;
-}
-
-.home .cardapio-options a.button-primary .fa {
-    color: rgb(247, 167 ,145);
-}
 
 /**
- * Configurações do slider
+ * Configuração do hero de cardapio
  */
 
-.home .slider {
-    display: flex;
-    justify-content: center;
+.home .hero-cardapio {
+    justify-content: flex-start;
 }
 
-.home .slider .item {
-    display: flex;
-    padding: 6rem;
-    justify-content: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center bottom;
-    height: 100%;
+.home .hero-cardapio 
+.hero-foot .container {
+    padding: 1.2rem 0;
 }
 
-.home .slider .item:first-child {
-    background-image: url('assets/images/g9553.png');
+.home .hero-cardapio .hero-foot
+.container .columns .column .button-primary {
+    background-color: orangered;
+    color: white;
+    border-radius: 25px;
 }
 
-.home .slider .prev {
-    align-self: flex-start;
-    position: absolute;
-    margin: 0 2rem;
-}
-
-.home .slider .next {
-    align-self: flex-end;
-    position: absolute;
-    margin: 0 -2rem;
+.home .hero-cardapio .hero-foot
+.container .columns .column .keep-scrolling {
+    margin: 1rem 0;
 }

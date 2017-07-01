@@ -1,4 +1,4 @@
-<nav class="nav" data-scroll="main-content">
+<nav class="nav" id="main-content">
   <div class="container">
     <div class="nav-left">
       <div class="nav-item">
