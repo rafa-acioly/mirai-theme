@@ -60,4 +60,65 @@
     </section>
 </div>
 
+<main class="content">
+    <div class="columns is-multiline is-paddingless">
+        <div class="column is-6">
+            <!-- Colocar as imagens do local em frames de foto -->
+        </div>
+        <div class="column is-6">
+            <div class="columns">
+                <div class="column is-10">
+                    <span class="icon">
+                <i class="fa fa-cutlery"></i>
+                </span>
+                <h1 class="title is-3">
+                    O maior restaurante <br>
+                    japonês de Mogi da Cruzes.
+                </h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos culpa impedit, ratione, fugit inventore porro deleniti consequuntur, consectetur, qui sequi corporis dolorem? Repudiandae aut iure illum officia minima animi tenetur!
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus officia id fugit, officiis, molestiae ullam porro non. Cumque reiciendis placeat dolorum, tenetur iure voluptatibus id reprehenderit impedit quod non? Cum.
+                </p>
+                <p>
+                    #VemProMirai
+                </p>
+                </div>
+            </div>
+        </div>
+        <div class="column is-6">
+            <div class="columns">
+                <div class="column is-7 is-offset-5">
+                    <span class="icon">
+                        <i class="fa fa-map-marker"></i>
+                    </span>
+                    <h1 class="title is-3">Perto de tudo, <br> fácil de chegar.</h1>
+                    <p>
+                        Localizado na badalada Praça Norival Tavares,
+                        em Mogi das Cruzes - SP, O Mirai é o maior restaurante
+                        japonês da região, suportando confortavelmente 120 pessoas.
+                    </p>
+                    <p>
+                        Sistema de rodizio e também à la carte, são mais de 80 opções
+                        no menu, feito por shusimen de renome e tradição.
+                    </p>
+                    <p>
+                        Aguardamos sua visita.
+                    </p>
+                    <p>
+                        <address>
+                            Praça Norival Tavares, 331 <br>
+                            Mogi das Cruzes - SP
+                        </address>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="column is-6">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14642.661967771613!2d-46.520577450000005!3d-23.43644785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1498874348875" width=800" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+    </div>
+</main>
+
 <?php get_footer(); ?>

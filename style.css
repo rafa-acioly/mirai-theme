@@ -19,24 +19,34 @@ License URI:        http://opensource.org/licenses/MIT
 /**
  * Configuração do hero de cardapio
  */
-
 .home .hero-cardapio {
     justify-content: flex-start;
 }
 
 .home .hero-cardapio 
 .hero-foot .container {
-    padding: 1.2rem 0;
+    padding: 2.5rem 0;
+    color: black;
 }
 
 .home .hero-cardapio .hero-foot
 .container .columns .column .button-primary {
-    background-color: orangered;
+    background-color: #D04F2B;
     color: white;
-    border-radius: 25px;
 }
 
 .home .hero-cardapio .hero-foot
 .container .columns .column .keep-scrolling {
     margin: 1rem 0;
+}
+
+/**
+ * Configuraçao da parte principal
+ */
+.home main.content .columns {
+    padding: 1.5rem;
+}
+
+.home main.content {
+    background-color: #FFF8F0;
 }
