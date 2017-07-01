@@ -14,6 +14,14 @@ License URI:        http://opensource.org/licenses/MIT
 /**
  * Configuração do hero principal
  */
+.hero:first-of-type {
+    background: url("assets/images/g58.png") no-repeat;
+    background-size: auto;
+}
+
+.hero:first-of-type .hero-body .container img {
+    height: 80%;
+}
 
 
 /**
@@ -23,20 +31,17 @@ License URI:        http://opensource.org/licenses/MIT
     justify-content: flex-start;
 }
 
-.home .hero-cardapio 
-.hero-foot .container {
+.home .hero-cardapio .hero-foot .container {
     padding: 2.5rem 0;
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
-.home .hero-cardapio .hero-foot
-.container .columns .column .button-primary {
+.home .hero-cardapio .hero-foot .container .columns .column .button-primary {
     background-color: #D04F2B;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
-.home .hero-cardapio .hero-foot
-.container .columns .column .keep-scrolling {
+.home .hero-cardapio .hero-foot .container .columns .column .keep-scrolling {
     margin: 1rem 0;
 }
 
@@ -48,17 +53,21 @@ License URI:        http://opensource.org/licenses/MIT
 }
 
 .home main.content {
-    background-color: #FFF8F0;
+    background-color: rgb(255, 248, 240);
+}
+
+.home main.content .columns .column .icon .fa {
+    font-size: 3rem;
+    color: #ef4f23;
 }
 
 
 .home section.hero {
-    background-color: #13131D;
-    align-items: center;
+    background-color: rgb(19, 19, 29);
+    justify-content: center;
 }
 
-.home section.hero 
-.columns .column .line-separator {
-    border: .2px solid #D04F2B;
+.home section.hero .columns .column .line-separator {
+    border: 1px solid rgb(208, 79, 43);
     margin-bottom: 1.5rem;
 }

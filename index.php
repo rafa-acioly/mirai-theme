@@ -1,9 +1,9 @@
 <?php get_header(); ?>
 
-<div class="hero is-fullheight is-primary">
+<div class="hero is-fullheight">
   <div class="hero-body">
-    <div class="container">
-      <!-- Adicionar as imagens e textos do primeiro bloco -->
+    <div class="container has-text-centered">
+        <img src="<?= get_template_directory_uri(); ?>/assets/images/cardapio-illustration.png" alt="ilustração de cardapio">
     </div>
   </div>
   <div class="hero-foot has-text-centered">
@@ -63,14 +63,14 @@
 <main class="content">
     <div class="columns is-multiline is-paddingless">
         <div class="column is-6">
-            <!-- Colocar as imagens do local em frames de foto -->
+            <img src="<?= get_template_directory_uri(); ?>/assets/images/g10083.png" alt="fotos local">
         </div>
         <div class="column is-6">
             <div class="columns">
                 <div class="column is-10">
                     <span class="icon">
-                <i class="fa fa-cutlery"></i>
-                </span>
+                        <i class="fa fa-cutlery"></i>
+                    </span>
                 <h1 class="title is-3">
                     O maior restaurante <br>
                     japonês de Mogi da Cruzes.
@@ -133,7 +133,7 @@
                 <form action="">
                     <div class="field">
                         <p class="control has-icons-left">
-                            <input type="text" class="input" placeholder="Nome">
+                            <input class="input" placeholder="Nome">
                             <span class="icon is-small is-left">
                                 <i class="fa fa-user-o"></i>
                             </span>
@@ -141,7 +141,7 @@
                     </div>
                     <div class="field">
                         <p class="control has-icons-left">
-                            <input type="text" class="input" placeholder="Email">
+                            <input class="input" placeholder="Email">
                             <span class="icon is-small is-left">
                                 <i class="fa fa-envelope-o"></i>
                             </span>
@@ -157,7 +157,7 @@
                     </div>
                     <div class="field">
                         <p class="control">
-                            <button type="submit" class="button is-large is-success is-fullwidth">Enviar</button>
+                            <button class="button is-large is-success is-fullwidth">Enviar</button>
                         </p>
                     </div>
                 </form>
