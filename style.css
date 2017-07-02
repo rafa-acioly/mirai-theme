@@ -14,14 +14,24 @@ License URI:        http://opensource.org/licenses/MIT
 /**
  * Configuração do hero principal
  */
-.hero:first-of-type {
+.home .introduction {
     background: url("assets/images/g58.png") no-repeat;
-    background-size: auto;
 }
 
-.hero:first-of-type .hero-body .container img {
+@media screen and (min-width: 768px) {
+    .home .introduction {
+        background-size: 100vw 70%;
+    }
+}
+
+.home .introduction .hero-body .container img {
     height: 80%;
 }
+
+.home .introduction .hero-body {
+    padding: 2rem 1.5rem;
+}
+
 
 
 /**
@@ -31,17 +41,17 @@ License URI:        http://opensource.org/licenses/MIT
     justify-content: flex-start;
 }
 
-.home .hero-cardapio .hero-foot .container {
+.home .hero-cardapio .hero-foot {
     padding: 2.5rem 0;
     color: rgb(0, 0, 0);
 }
 
-.home .hero-cardapio .hero-foot .container .columns .column .button-primary {
+.home .hero-cardapio .hero-foot .columns .column .button-primary {
     background-color: #D04F2B;
     color: rgb(255, 255, 255);
 }
 
-.home .hero-cardapio .hero-foot .container .columns .column .keep-scrolling {
+.home .hero-cardapio .hero-foot .columns .column .keep-scrolling {
     margin: 1rem 0;
 }
 

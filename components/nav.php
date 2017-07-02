@@ -10,13 +10,13 @@
 
     <div class="nav-right">
       <div class="nav-item">
-        <a href="#">Item</a>
+        <a href="#" data-scroll="home">Inicio</a>
       </div>
       <div class="nav-item">
-        <a href="#">Item</a>
+        <a href="#" data-scroll="about">Sobre</a>
       </div>
       <div class="nav-item">
-        <a href="#">Item</a>
+        <a href="#" data-scroll="contact">Contato</a>
       </div>
     </div>
   </div>

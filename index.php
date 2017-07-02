@@ -1,13 +1,14 @@
 <?php get_header(); ?>
 
-<div class="hero is-fullheight">
+<div class="hero is-fullheight introduction" id="home">
   <div class="hero-body">
     <div class="container has-text-centered">
         <img src="<?= get_template_directory_uri(); ?>/assets/images/cardapio-illustration.png" alt="ilustração de cardapio">
     </div>
   </div>
   <div class="hero-foot has-text-centered">
-      <a href="#main-content">
+      Veja o cardápio <br>
+      <a href="#" data-scroll="products-menu">
         <span class="icons">
           <i class="fa fa-angle-down"></i>
         </span>
@@ -15,52 +16,50 @@
   </div>
 </div>
 
-<div class="hero is-fullheight hero-cardapio">
+<div class="hero is-fullheight hero-cardapio" id="products-menu">
     <div class="hero-nav">
         <?php get_template_part('components/nav', 'nav'); ?>
     </div>
     <div class="slider">
         <div class="siema">
             <div class="item has-text-centered">
-                <img src="http://placehold.it/1920x550" alt="">
+                <img src="http://placehold.it/1920x500" alt="">
             </div>
         </div>
     </div>
     <section class="hero-foot">
-        <div class="container">
-            <div class="columns">
-                <div class="column is-half is-offset-one-quarter has-text-centered">
-                    <h1 class="title is-3 is-spaced">
-                        No Mirai ou na sua casa <span>o maior cardápio japonês da região.</span>
-                    </h1>
-                    <h2 class="subtitle is-5">
-                        Escolha abaixo uma das opções do cardápio
-                    </h2>
-                    <a href="#" class="button button-primary">
-                        Cardápio completo
-                        <span class="icons">
-                            <i class="fa fa-angle-right fa-fw"></i>
-                        </span>
-                    </a>
-                    <a href="#" class="button button-primary">
-                        Cardápio Delivery
-                        <span class="icons">
-                            <i class="fa fa-motorcycle fa-fw"></i>
-                        </span>
-                    </a>
-                    <br>
-                    <a href="#" class="keep-scrolling">
-                        <span class="icons">
-                            <i class="fa fa-angle-down"></i>
-                        </span>
-                    </a>
-                </div>
+        <div class="columns">
+            <div class="column content is-half is-offset-one-quarter has-text-centered">
+                <h1 class="title is-3 is-spaced">
+                    No Mirai ou na sua casa <span>o maior cardápio japonês da região.</span>
+                </h1>
+                <h2 class="subtitle is-5">
+                    Escolha abaixo uma das opções do cardápio
+                </h2>
+                <a href="#" class="button button-primary">
+                    Cardápio completo
+                    <span class="icons">
+                        <i class="fa fa-angle-right fa-fw"></i>
+                    </span>
+                </a>
+                <a href="#" class="button button-primary">
+                    Cardápio Delivery
+                    <span class="icons">
+                        <i class="fa fa-motorcycle fa-fw"></i>
+                    </span>
+                </a>
+                <br>
+                <a href="#" class="keep-scrolling" data-scroll="about">
+                    <span class="icons">
+                        <i class="fa fa-angle-down"></i>
+                    </span>
+                </a>
             </div>
         </div>
     </section>
 </div>
 
-<main class="content">
+<main class="content" id="about">
     <div class="columns is-multiline is-paddingless">
         <div class="column is-6">
             <img src="<?= get_template_directory_uri(); ?>/assets/images/g10083.png" alt="fotos local">
@@ -121,7 +120,7 @@
     </div>
 </main>
 
-<section class="hero is-fullheight">
+<section class="hero is-fullheight" id="contact">
     <div class="container">
         <div class="columns is-multiline">
             <div class="column is-4 is-offset-4 has-text-centered">
@@ -165,8 +164,10 @@
             <div class="column is-6 is-offset-one-quarter has-text-centered">
                 <div class="line-separator"></div>
                 <p>
-                    Reservas somente por telefone:
-                    (11) 4796-1818
+                    <p>Reservas somente por telefone:</p>
+                    <p>
+                        <a href="tel:+551147961818">(11) 4796-1818</a>
+                    </p>
                 </p>
             </div>
         </div>

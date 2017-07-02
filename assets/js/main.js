@@ -1,29 +1,36 @@
 $(document).ready(function () {
 
-  var siema = new Siema({
+  /*var siema = new Siema({
     selector: '.hero .hero-body .slider .siema',
     duration: 200,
     loop: true,
     draggable: false
-  });
+  });*/
 
   $('.prev').on('click', function () {
-    siema.prev();
+    //siema.prev();
   });
 
   $('.next').on('click', function () {
-    siema.next();
+    //siema.next();
   });
 
-  $('[data-scroll]').on('click', function () {
 
-    // TODO: realizar o scroll para a seção referente ao link clicado
+  /**
+   * Realize o scroll para um determinado elemento com ID
+   * @param {String} elementToShow 
+   */
+  function goToPart (elementToShow) {
+    $('html, body').animate({
+      scrollTop: $('#'+elementToShow).offset().top
+    }, 1000);
+  }
 
-  });
-
-  $('.main-hero .scroll-down').on('click', function () {
-
-    // TODO: Realizar o scroll da pagina ate o navbar
-
+  /**
+   * Adiciona o evento click em todos os elementos de link
+   * com atributo data-scroll
+   */
+  $('a[data-scroll]').on('click', function (event) {
+    goToPart($(this).data('scroll'));
   });
 });
