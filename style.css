@@ -17,6 +17,12 @@ License URI:        http://opensource.org/licenses/MIT
   margin: 1rem;
 }
 
+@media screen and (min-width: 867px) {
+  .button-next-section {
+    margin: .5rem;
+  }
+}
+
 /**
  * Configuração do hero principal
  */
