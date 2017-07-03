@@ -1,22 +1,13 @@
 $(document).ready(function () {
 
+  /**
+   * Animação com WOWJS
+   */
   new WOW().init();
 
-  /*var siema = new Siema({
-    selector: '.hero .hero-body .slider .siema',
-    duration: 200,
-    loop: true,
-    draggable: false
-  });*/
-
-  $('.prev').on('click', function () {
-    //siema.prev();
-  });
-
-  $('.next').on('click', function () {
-    //siema.next();
-  });
-
+  /**
+   * Exibe o menu na versão mobile
+   */
   $('.nav-toggle').on('click', function () {
     $(this).toggleClass('is-active') && $('.nav-menu').toggleClass('is-active');
   });
