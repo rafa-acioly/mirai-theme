@@ -20,7 +20,7 @@
     <div class="hero-nav">
         <?php get_template_part('components/nav', 'nav'); ?>
     </div>
-    <div class="slider">
+    <div class="slider is-hidden-mobile">
         <div class="siema">
             <div class="item has-text-centered">
                 <img src="http://placehold.it/1920x500" alt="">
@@ -66,29 +66,29 @@
         </div>
         <div class="column is-6">
             <div class="columns">
-                <div class="column is-10">
-                    <span class="icon">
-                        <i class="fa fa-cutlery"></i>
-                    </span>
-                <h1 class="title is-3">
-                    O maior restaurante <br>
-                    japonês de Mogi da Cruzes.
-                </h1>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos culpa impedit, ratione, fugit inventore porro deleniti consequuntur, consectetur, qui sequi corporis dolorem? Repudiandae aut iure illum officia minima animi tenetur!
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus officia id fugit, officiis, molestiae ullam porro non. Cumque reiciendis placeat dolorum, tenetur iure voluptatibus id reprehenderit impedit quod non? Cum.
-                </p>
-                <p>
-                    #VemProMirai
-                </p>
+                <div class="column content is-10">
+                  <span class="icon">
+                      <i class="fa fa-cutlery"></i>
+                  </span>
+                  <h1 class="title is-3">
+                      O maior restaurante <br>
+                      japonês de Mogi da Cruzes.
+                  </h1>
+                  <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos culpa impedit, ratione, fugit inventore porro deleniti consequuntur, consectetur, qui sequi corporis dolorem? Repudiandae aut iure illum officia minima animi tenetur!
+                  </p>
+                  <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus officia id fugit, officiis, molestiae ullam porro non. Cumque reiciendis placeat dolorum, tenetur iure voluptatibus id reprehenderit impedit quod non? Cum.
+                  </p>
+                  <p>
+                      #VemProMirai
+                  </p>
                 </div>
             </div>
         </div>
         <div class="column is-6">
             <div class="columns">
-                <div class="column is-7 is-offset-5">
+                <div class="column content is-7 is-offset-5">
                     <span class="icon">
                         <i class="fa fa-map-marker"></i>
                     </span>
@@ -121,7 +121,7 @@
 </main>
 
 <section class="hero is-fullheight" id="contact">
-    <div class="container">
+    <div class="section">
         <div class="columns is-multiline">
             <div class="column is-4 is-offset-4 has-text-centered">
                 <span class="icon">

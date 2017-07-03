@@ -17,6 +17,10 @@ $(document).ready(function () {
     //siema.next();
   });
 
+  $('.nav-toggle').on('click', function () {
+    $(this).toggleClass('is-active') && $('.nav-menu').toggleClass('is-active');
+  });
+
 
   /**
    * Realize o scroll para um determinado elemento com ID

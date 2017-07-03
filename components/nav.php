@@ -8,7 +8,7 @@
       </div>
     </div>
 
-    <div class="nav-right">
+    <div class="nav-right nav-menu">
       <div class="nav-item">
         <a href="#" data-scroll="home">Inicio</a>
       </div>
@@ -18,6 +18,12 @@
       <div class="nav-item">
         <a href="#" data-scroll="contact">Contato</a>
       </div>
+    </div>
+
+    <div class="nav-toggle">
+      <span></span>
+      <span></span>
+      <span></span>
     </div>
   </div>
 </nav>

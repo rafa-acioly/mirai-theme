@@ -32,12 +32,14 @@ License URI:        http://opensource.org/licenses/MIT
 
 @media screen and (min-width: 1281px) {
     .home .introduction {
-        background-size: auto 70%;
+      background-size: auto 70%;
     }
 }
 
-.home .introduction .hero-body .container img {
-    height: 80%;
+@media screen and (min-width: 860px) {
+  .home .introduction .hero-body .container img {
+    height: 70%;
+  }
 }
 
 .home .introduction .hero-body {
@@ -88,4 +90,8 @@ License URI:        http://opensource.org/licenses/MIT
 .home section.hero .columns .column .line-separator {
     border: 1px solid rgb(208, 79, 43);
     margin-bottom: 1.5rem;
+}
+
+.home section.hero .section {
+  background-color: transparent;
 }
