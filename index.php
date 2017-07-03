@@ -62,7 +62,7 @@
 <main class="content" id="about">
     <div class="columns is-multiline is-paddingless">
         <div class="column is-6">
-            <img src="<?= get_template_directory_uri(); ?>/assets/images/g10083.png" alt="fotos local">
+            <img class="wow slideInUp " src="<?= get_template_directory_uri(); ?>/assets/images/g10083.png" alt="fotos local">
         </div>
         <div class="column is-6">
             <div class="columns">

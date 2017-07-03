@@ -1,5 +1,7 @@
 $(document).ready(function () {
 
+  new WOW().init();
+
   /*var siema = new Siema({
     selector: '.hero .hero-body .slider .siema',
     duration: 200,
@@ -18,7 +20,7 @@ $(document).ready(function () {
 
   /**
    * Realize o scroll para um determinado elemento com ID
-   * @param {String} elementToShow 
+   * @param {String} elementToShow
    */
   function goToPart (elementToShow) {
     $('html, body').animate({
