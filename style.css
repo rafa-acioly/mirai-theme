@@ -51,6 +51,12 @@ License URI:        http://opensource.org/licenses/MIT
 /**
  * Configuração do hero de cardapio
  */
+.metaslider .caption-wrap {
+  bottom: 50% !important;
+  text-align: center !important;
+  background-color: transparent !important;
+}
+
 .home .hero-cardapio {
     justify-content: flex-start;
 }

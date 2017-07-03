@@ -20,13 +20,7 @@
     <div class="hero-nav">
         <?php get_template_part('components/nav', 'nav'); ?>
     </div>
-    <div class="slider is-hidden-mobile">
-        <div class="siema">
-            <div class="item has-text-centered">
-                <img src="http://placehold.it/1920x500" alt="">
-            </div>
-        </div>
-    </div>
+    <?php echo do_shortcode("[metaslider id=25]"); ?>
     <section class="hero-foot">
         <div class="columns">
             <div class="column content is-half is-offset-one-quarter has-text-centered">

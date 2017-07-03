@@ -1,5 +1,7 @@
 <?php
 
+add_theme_support('post-thumbnails');
+
 // Rename Label Post and Itens
 function rename_label() {
   global $menu;
