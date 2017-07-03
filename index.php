@@ -8,7 +8,7 @@
   </div>
   <div class="hero-foot has-text-centered">
       Veja o cardápio <br>
-      <a href="#" data-scroll="products-menu">
+      <a href="#" class="button button-next-section" data-scroll="products-menu">
         <span class="icons">
           <i class="fa fa-angle-down"></i>
         </span>
@@ -49,7 +49,7 @@
                     </span>
                 </a>
                 <br>
-                <a href="#" class="keep-scrolling" data-scroll="about">
+                <a href="#" class="button button-next-section" data-scroll="about">
                     <span class="icons">
                         <i class="fa fa-angle-down"></i>
                     </span>

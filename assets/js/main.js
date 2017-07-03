@@ -33,6 +33,7 @@ $(document).ready(function () {
    * com atributo data-scroll
    */
   $('a[data-scroll]').on('click', function (event) {
+    event.preventDefault();
     goToPart($(this).data('scroll'));
   });
 });

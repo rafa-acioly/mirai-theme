@@ -11,6 +11,12 @@ License URI:        http://opensource.org/licenses/MIT
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
+.button-next-section {
+  border-radius: 100%;
+  border-color: #EF4F23;
+  margin: 1rem;
+}
+
 /**
  * Configuração do hero principal
  */
@@ -18,7 +24,7 @@ License URI:        http://opensource.org/licenses/MIT
     background: url("assets/images/g58.png") no-repeat;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1281px) {
     .home .introduction {
         background-size: 100vw 70%;
     }
@@ -49,10 +55,6 @@ License URI:        http://opensource.org/licenses/MIT
 .home .hero-cardapio .hero-foot .columns .column .button-primary {
     background-color: #D04F2B;
     color: rgb(255, 255, 255);
-}
-
-.home .hero-cardapio .hero-foot .columns .column .keep-scrolling {
-    margin: 1rem 0;
 }
 
 /**
