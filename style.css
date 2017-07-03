@@ -26,7 +26,7 @@ License URI:        http://opensource.org/licenses/MIT
 
 @media screen and (min-width: 1281px) {
     .home .introduction {
-        background-size: 100vw 70%;
+        background-size: auto 70%;
     }
 }
 
