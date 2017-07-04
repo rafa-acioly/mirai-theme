@@ -56,9 +56,9 @@
 <main class="content" id="about">
     <div class="columns is-multiline is-paddingless">
         <div class="column is-6">
-            <img class="wow slideInUp" data-wow-delay="0.7s" src="<?= get_template_directory_uri(); ?>/assets/images/g10083.png" alt="fotos local">
+            <img class="wow fadeInLeft" data-wow-delay="0.7s" src="<?= get_template_directory_uri(); ?>/assets/images/g10083.png" alt="fotos local">
         </div>
-        <div class="column is-6">
+        <div class="wow fadeInRight column is-6" data-wow-delay="0.7s">
             <div class="columns">
                 <div class="column content is-10">
                   <span class="icon">
@@ -80,7 +80,7 @@
                 </div>
             </div>
         </div>
-        <div class="column is-6">
+        <div class="wow fadeInLeft column is-6" data-wow-delay="0.7s">
             <div class="columns">
                 <div class="column content is-7 is-offset-5">
                     <span class="icon">
@@ -108,7 +108,7 @@
                 </div>
             </div>
         </div>
-        <div class="column is-6">
+        <div class="wow fadeInRight column is-6" data-wow-delay="0.7s">
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14642.661967771613!2d-46.520577450000005!3d-23.43644785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1498874348875" width="800" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
     </div>
@@ -124,7 +124,7 @@
                 <form action="">
                     <div class="field">
                         <p class="control has-icons-left">
-                            <input class="input" placeholder="Nome">
+                            <input class="input" placeholder="Nome" required>
                             <span class="icon is-small is-left">
                                 <i class="fa fa-user-o"></i>
                             </span>
@@ -132,7 +132,7 @@
                     </div>
                     <div class="field">
                         <p class="control has-icons-left">
-                            <input class="input" placeholder="Email">
+                            <input class="input" placeholder="Email" required>
                             <span class="icon is-small is-left">
                                 <i class="fa fa-envelope-o"></i>
                             </span>
@@ -140,7 +140,7 @@
                     </div>
                     <div class="field">
                         <p class="control has-icons-left">
-                            <textarea name="" id="" cols="30" rows="10" class="textarea" placeholder="Mensagem"></textarea>
+                            <textarea name="" id="" cols="30" rows="10" class="textarea" placeholder="Mensagem" required></textarea>
                             <span class="icon is-small is-left">
                                 <i class="fa fa-comment-o"></i>
                             </span>
