@@ -7,7 +7,7 @@
     </div>
   </div>
   <div class="hero-foot has-text-centered">
-      Veja o cardápio <br>
+      <p class="pre-next-section">Conheça o Mirai</p>
       <a href="#" class="button button-next-section" data-scroll="products-menu">
         <span class="icons">
           <i class="fa fa-angle-down"></i>
@@ -20,7 +20,7 @@
     <div class="hero-nav">
         <?php get_template_part('components/nav', 'nav'); ?>
     </div>
-    <?php echo do_shortcode("[metaslider id=25]"); ?>
+    <?= do_shortcode("[metaslider id=25]"); ?>
     <section class="hero-foot">
         <div class="columns">
             <div class="column content is-half is-offset-one-quarter has-text-centered">
@@ -28,7 +28,7 @@
                     No Mirai ou na sua casa <span>o maior cardápio japonês da região.</span>
                 </h1>
                 <h2 class="subtitle is-5">
-                    Escolha abaixo uma das opções do cardápio
+                    <small>Escolha abaixo uma das opções do cardápio</small>
                 </h2>
                 <a href="#" class="button button-primary">
                     Cardápio completo
@@ -37,7 +37,7 @@
                     </span>
                 </a>
                 <a href="#" class="button button-primary">
-                    Cardápio Delivery
+                    Cardápio Delivery &nbsp;
                     <span class="icons">
                         <i class="fa fa-motorcycle fa-fw"></i>
                     </span>
@@ -56,7 +56,7 @@
 <main class="content" id="about">
     <div class="columns is-multiline is-paddingless">
         <div class="column is-6">
-            <img class="wow slideInUp " src="<?= get_template_directory_uri(); ?>/assets/images/g10083.png" alt="fotos local">
+            <img class="wow slideInUp" data-wow-delay="0.7s" src="<?= get_template_directory_uri(); ?>/assets/images/g10083.png" alt="fotos local">
         </div>
         <div class="column is-6">
             <div class="columns">
@@ -75,7 +75,7 @@
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus officia id fugit, officiis, molestiae ullam porro non. Cumque reiciendis placeat dolorum, tenetur iure voluptatibus id reprehenderit impedit quod non? Cum.
                   </p>
                   <p>
-                      #VemProMirai
+                      <span class="social-tag">#VemProMirai</span>
                   </p>
                 </div>
             </div>
@@ -101,7 +101,7 @@
                     </p>
                     <p>
                         <address>
-                            Praça Norival Tavares, 331 <br>
+                            <span class="street">Praça Norival Tavares, 331</span> <br>
                             Mogi das Cruzes - SP
                         </address>
                     </p>
@@ -118,9 +118,7 @@
     <div class="section">
         <div class="columns is-multiline">
             <div class="column is-4 is-offset-4 has-text-centered">
-                <span class="icon">
-                    <i class="fa fa-comments-o"></i>
-                </span>
+                <img src="<?= get_template_directory_uri(); ?>/assets/images/g9854.png" alt="">
                 <h1 class="title is-2">Fale com o Mirai!</h1>
                 <h2 class="subtitle">Sempre pronto para receber seu feedback.</h2>
                 <form action="">
@@ -150,7 +148,7 @@
                     </div>
                     <div class="field">
                         <p class="control">
-                            <button class="button is-large is-success is-fullwidth">Enviar</button>
+                            <button class="button is-large is-success is-fullwidth">Enviar mensagem</button>
                         </p>
                     </div>
                 </form>
