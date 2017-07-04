@@ -7,6 +7,18 @@
     </div>
   </div>
   <div class="hero-foot has-text-centered">
+      <p class="is-hidden-tablet">
+          <a href="tel:+551147961818" class="button is-success make-a-call">
+              Ligar agora &nbsp;
+              <span class="icon"><i class="fa fa-phone fa-fw"></i></span>
+          </a>
+      </p>
+      <p class="is-hidden-tablet">
+          <a href="" class="button go-to-menu">
+              Cardapio delivery &nbsp;
+              <span class="icon"><i class="fa fa-angle-right fa-fw"></i></span>
+          </a>
+      </p>
       <p class="pre-next-section">Conheça o Mirai</p>
       <a href="#" class="button button-next-section" data-scroll="products-menu">
         <span class="icons">
@@ -165,5 +177,22 @@
         </div>
     </div>
 </section>
+<footer class="footer is-hidden-tablet">
+    <div class="container">
+        <div class="columns">
+            <div class="column">
+                <p><img src="<?= get_template_directory_uri(); ?>/assets/images/logo.png" alt=""></p>
+                <p>Reservas:</p>
+                <p><span class="text-highlight">(11) 4796-1818</span></p>
+            </div>
+            <div class="column">
+                <p><span class="text-highlight">PRAÇA NORIVAL TAVARES, 331</span> <br> MOGI DAS CRUZES-SP</p>
+                <p>Delivery:</p>
+                <p><span class="text-highlight">(11) 4796-2121 / 4796-1818</span></p>
+                <p><img src="<?= get_template_directory_uri(); ?>/assets/images/credit.png" alt=""></p>
+            </div>
+        </div>
+    </div>
+</footer>
 
 <?php get_footer(); ?>

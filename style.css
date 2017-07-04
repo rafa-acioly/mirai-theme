@@ -18,6 +18,26 @@ html, body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.home #home .hero-foot .is-hidden-tablet {
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: .5rem;
+}
+
+.home #home .hero-foot .is-hidden-tablet:not(:last-child) {
+    margin: .5rem;
+}
+
+.home #home .hero-foot .is-hidden-tablet .make-a-call {
+    background-color: #00b670;
+    min-width: 214px;
+}
+
+.home #home .hero-foot .is-hidden-tablet .go-to-menu {
+    background-color: #ef4f23;
+    color: white;
+}
+
 /************************************************
  * Configuração de botão para mover a pagina para
  * a proxima seção.
@@ -31,7 +51,7 @@ html, body {
 .button-next-section {
   border-radius: 100%;
   border-color: #EF4F23;
-  margin: 1rem;
+  margin: .5rem;
 }
 
 .button-next-section .icons .fa {
@@ -52,7 +72,7 @@ html, body {
     background: url("assets/images/g58.png") no-repeat;
 }
 
-@media screen and (min-width: 1281px) {
+@media screen and (min-width: 860px) {
     .home .introduction {
       background-size: auto 70%;
     }
@@ -106,6 +126,7 @@ html, body {
 
 .home #products-menu .hero-nav .nav {
     background-color: #0b0b17;
+    height: 4.25rem;
 }
 
 .home #products-menu .hero-nav .nav .nav-item a {
@@ -186,4 +207,15 @@ html, body {
 
 .home #contact .section {
   background-color: transparent;
+}
+
+
+.home .footer .columns .column p span.text-highlight {
+    color: rgb(208, 79, 43);
+    font-weight: bolder;
+}
+
+.home .footer .columns .column p {
+    color: #0b0b17;
+    font-weight: bolder;
 }

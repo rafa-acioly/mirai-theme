@@ -3,7 +3,7 @@
     <div class="nav-left">
       <div class="nav-item">
         <a href="#">
-          <img src="http://placehold.it/350x150" alt="">
+            <img src="<?= get_template_directory_uri(); ?>/assets/images/logo.png" alt="">
         </a>
       </div>
     </div>
