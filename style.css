@@ -18,6 +18,12 @@ html, body {
     font-family: 'Montserrat', sans-serif;
 }
 
+@media screen and (max-width: 860px){
+    .home #home .hero-body .container img {
+        max-width: 165%;
+    }
+}
+
 .home #home .hero-foot .is-hidden-tablet {
     text-transform: uppercase;
     font-weight: bolder;
