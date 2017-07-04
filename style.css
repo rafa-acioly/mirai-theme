@@ -11,10 +11,17 @@ License URI:        http://opensource.org/licenses/MIT
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
+/***********************
+ * Configurações globais
+ ***********************/
 html, body {
     font-family: 'Montserrat', sans-serif;
 }
 
+/************************************************
+ * Configuração de botão para mover a pagina para
+ * a proxima seção.
+ ***********************************************/
 .pre-next-section {
     font-weight: bolder;
     text-transform: uppercase;
@@ -38,9 +45,9 @@ html, body {
   }
 }
 
-/**
+/*********************************
  * Configuração do hero principal
- */
+ *********************************/
 .home .introduction {
     background: url("assets/images/g58.png") no-repeat;
 }
@@ -63,15 +70,19 @@ html, body {
 
 
 
-/**
- * Configuração do hero de cardapio
- */
+/*************************************
+ * Configuração de plaholder do slide
+ *************************************/
 .metaslider .caption-wrap {
   bottom: 50% !important;
   text-align: center !important;
   background-color: transparent !important;
 }
 
+
+/*************************************
+ * Configuração da seção de produtos
+ *************************************/
 .home #products-menu {
     justify-content: flex-start;
 }
@@ -104,9 +115,9 @@ html, body {
     font-size: .8rem;
 }
 
-/**
- * Configuraçao da parte principal
- */
+/**************************************************
+ * Configuraçao do trecho onde fala sobre a empresa
+ **************************************************/
 .home #who-is .columns {
     padding: 1.5rem;
 }
@@ -136,6 +147,9 @@ html, body {
     font-weight: bolder;
 }
 
+/***************************************************
+ * Configuração de seção para formulario de contato
+ **************************************************/
 .home #contact {
     background-color: rgb(19, 19, 29);
     justify-content: center;
