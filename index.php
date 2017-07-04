@@ -43,7 +43,7 @@
                     </span>
                 </a>
                 <br>
-                <a href="#" class="button button-next-section" data-scroll="about">
+                <a href="#" class="button button-next-section" data-scroll="who-is">
                     <span class="icons">
                         <i class="fa fa-angle-down"></i>
                     </span>
@@ -53,12 +53,12 @@
     </section>
 </div>
 
-<main class="content" id="about">
+<main class="content" id="who-is">
     <div class="columns is-multiline is-paddingless">
         <div class="column is-6">
-            <img class="wow fadeInLeft" data-wow-delay="0.7s" src="<?= get_template_directory_uri(); ?>/assets/images/g10083.png" alt="fotos local">
+            <img class="wow fadeInLeft" data-wow-delay="0.5s" src="<?= get_template_directory_uri(); ?>/assets/images/g10083.png" alt="fotos local">
         </div>
-        <div class="wow fadeInRight column is-6" data-wow-delay="0.7s">
+        <div class="wow fadeInRight column is-6" data-wow-delay="0.5s">
             <div class="columns">
                 <div class="column content is-10">
                   <span class="icon">
@@ -80,7 +80,7 @@
                 </div>
             </div>
         </div>
-        <div class="wow fadeInLeft column is-6" data-wow-delay="0.7s">
+        <div class="wow fadeInLeft column is-6" data-wow-delay="0.5s" id="location">
             <div class="columns">
                 <div class="column content is-7 is-offset-5">
                     <span class="icon">
@@ -108,8 +108,8 @@
                 </div>
             </div>
         </div>
-        <div class="wow fadeInRight column is-6" data-wow-delay="0.7s">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14642.661967771613!2d-46.520577450000005!3d-23.43644785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1498874348875" width="800" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <div class="wow fadeInRight column is-6" data-wow-delay="0.5s">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d914.5774182139073!2d-46.18266678562846!3d-23.521361934566247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cdd839acb82ba7%3A0xe772543718ffe1db!2sMirai+Japanese+Food!5e0!3m2!1spt-BR!2sbr!4v1499128958235" width="800" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
     </div>
 </main>

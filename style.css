@@ -93,34 +93,45 @@ html, body {
     color: rgb(255, 255, 255);
 }
 
+.home #products-menu .hero-nav .nav {
+    background-color: #0b0b17;
+}
+
+.home #products-menu .hero-nav .nav .nav-item a {
+    text-transform: uppercase;
+    color: white;
+    font-weight: bolder;
+    font-size: .8rem;
+}
+
 /**
  * Configuraçao da parte principal
  */
-.home #about .columns {
+.home #who-is .columns {
     padding: 1.5rem;
 }
 
-.home #about {
+.home #who-is {
     background-color: rgb(255, 248, 240);
 }
 
-.home #about .columns .column .icon .fa {
+.home #who-is .columns .column .icon .fa {
     font-size: 3rem;
     color: #ef4f23;
 }
 
-.home #about .columns .column p > .social-tag {
+.home #who-is .columns .column p > .social-tag {
     font-weight: bolder;
     font-size: 2rem;
     color: #000;
 }
 
-.home #about .columns .column address {
+.home #who-is .columns .column address {
     text-transform: uppercase;
     font-style: normal;
 }
 
-.home #about .columns .column address .street {
+.home #who-is .columns .column address .street {
     color: #ef4f23;
     font-weight: bolder;
 }
