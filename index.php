@@ -32,7 +32,7 @@
     <div class="hero-nav">
         <?php get_template_part('components/nav', 'nav'); ?>
     </div>
-    <?= do_shortcode("[metaslider id=25]"); ?>
+    <?= do_shortcode("[metaslider id=5]"); ?>
     <section class="hero-foot">
         <div class="columns">
             <div class="column content is-half is-offset-one-quarter has-text-centered">
