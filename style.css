@@ -9,13 +9,14 @@ License:            MIT License
 License URI:        http://opensource.org/licenses/MIT
 */
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
 
 /***********************
  * Configurações globais
  ***********************/
 html, body {
     font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
 }
 
 @media screen and (max-width: 860px){
@@ -52,6 +53,7 @@ html, body {
     font-weight: bolder;
     text-transform: uppercase;
     color: #000;
+    font-size: .8rem;
 }
 
 .button-next-section {
@@ -120,7 +122,13 @@ html, body {
 .home #products-menu .hero-foot .title,
 .home #products-menu .hero-foot .title span {
     color: #0b0b17;
+    letter-spacing: -1px;
 }
+
+.home #products-menu .hero-foot .title + .subtitle {
+    letter-spacing: -1px;
+}
+
 .home #products-menu .hero-foot .title span {
     font-weight: bolder;
 }
@@ -128,6 +136,18 @@ html, body {
 .home #products-menu .hero-foot .columns .column .button-primary {
     background-color: #D04F2B;
     color: rgb(255, 255, 255);
+    height: 3.3em;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: .8rem;
+}
+
+.home #products-menu .hero-foot .columns .column p:not(:last-child) {
+    margin: 1.3rem 0 0 0;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: .8rem;
+    color: black;
 }
 
 .home #products-menu .hero-nav .nav {
@@ -142,11 +162,24 @@ html, body {
     font-size: .8rem;
 }
 
+.home #products-menu .hero-nav .nav .nav-item img {
+    max-height: 2.75rem;
+}
+
 /**************************************************
  * Configuraçao do trecho onde fala sobre a empresa
  **************************************************/
 .home #who-is .columns {
     padding: 1.5rem;
+}
+
+.home #who-is .columns .column .title {
+    font-weight: 600;
+    color: black;
+}
+
+.home #who-is .columns .column p {
+    font-size: .9rem;
 }
 
 .home #who-is {
@@ -160,8 +193,12 @@ html, body {
 
 .home #who-is .columns .column p > .social-tag {
     font-weight: bolder;
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: #000;
+}
+
+.home #who-is .columns .column p > .social-tag .hashtag {
+    color: #ef4f23;
 }
 
 .home #who-is .columns .column address {

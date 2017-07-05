@@ -55,6 +55,7 @@
                     </span>
                 </a>
                 <br>
+                <p>Sobre o restaurante</p>
                 <a href="#" class="button button-next-section" data-scroll="who-is">
                     <span class="icons">
                         <i class="fa fa-angle-down"></i>
@@ -87,7 +88,9 @@
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus officia id fugit, officiis, molestiae ullam porro non. Cumque reiciendis placeat dolorum, tenetur iure voluptatibus id reprehenderit impedit quod non? Cum.
                   </p>
                   <p>
-                      <span class="social-tag">#VemProMirai</span>
+                      <span class="social-tag">
+                        <span class="hashtag">#</span>VemProMirai
+                      </span>
                   </p>
                 </div>
             </div>

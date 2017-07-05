@@ -10,7 +10,12 @@
 
     <div class="nav-right nav-menu">
       <div class="nav-item">
-        <a href="#" data-scroll="home">Cardápio</a>
+        <a href="#" data-scroll="home">
+          Cardápio
+          <span class="icon">
+            <i class="fa fa-angle-down fa-fw"></i>
+          </span>
+        </a>
       </div>
       <div class="nav-item">
         <a href="#" data-scroll="who-is">O Mirai</a>
