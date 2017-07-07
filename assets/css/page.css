@@ -1,81 +1,81 @@
-.page-template-default nav.nav {
+.category nav.nav {
   background-color: #0b0b17;
   height: 4.25rem;
 }
 
-.page-template-default .nav .nav-item a {
+.category .nav .nav-item a {
     text-transform: uppercase;
     color: white;
     font-weight: bolder;
     font-size: .8rem;
 }
 
-.page-template-default .nav .nav-item img {
+.category .nav .nav-item img {
     max-height: 2.75rem;
 }
 
-.page-template-default .hero {
+.category .hero {
   background-image: url('../images/page/g1312.png'), url('../images/page/g1294.png');
   background-position: center bottom, center top;
   background-repeat: no-repeat;
 }
 
-.page-template-default .hero .hero-body .container .title,
-.page-template-default .hero .hero-body .container .subtitle {
+.category .hero .hero-body .container .title,
+.category .hero .hero-body .container .subtitle {
   color: #ef4f23;
   font-weight: 600;
 }
 
-.page-template-default .hero .hero-body .container .subtitle .fone-ddd {
+.category .hero .hero-body .container .subtitle .fone-ddd {
   font-weight: 400;
 }
 
-.page-template-default .section .panel .panel-block:first-child {
+.category .section .panel .panel-block:first-child {
   border-radius: 5px 5px 0 0;
 }
 
-.page-template-default .section .panel .panel-block:last-child {
+.category .section .panel .panel-block:last-child {
   border-radius: 0 0 5px 5px;
 }
 
-.page-template-default .section .panel .panel-block {
+.category .section .panel .panel-block {
   justify-content: space-between;
 }
 
-.page-template-default .section .panel a.panel-block.is-active {
+.category .section .panel a.panel-block.is-active {
   background-color: #0b0b17;
   color: white;
   border-left: none;
 }
 
-.page-template-default .section .panel a.panel-block {
+.category .section .panel a.panel-block {
   border: none;
 }
 
-.page-template-default .section .panel a.panel-block.is-active {
+.category .section .panel a.panel-block.is-active {
   border-radius: 5px;
 }
 
-.page-template-default .section .panel a.panel-block.is-active .icon .fa {
+.category .section .panel a.panel-block.is-active .icon .fa {
   color: #ef4f23;
 }
 
-.page-template-default .section .panel a.panel-block:not(.is-active) .icon .fa {
+.category .section .panel a.panel-block:not(.is-active) .icon .fa {
   color: rgba(239, 80, 36, .5);
 }
 
-.page-template-default .section .panel a.panel-block:not(.is-active):not(:last-child) {
+.category .section .panel a.panel-block:not(.is-active):not(:last-child) {
   border-bottom: 1px solid rgba(239, 80, 36, .3);
 }
 
-.page-template-default .section .columns .column > .main-title {
+.category .section .columns .column > .main-title {
   border-bottom: 1px solid #0b0b17;
   padding-bottom: 1rem;
   font-weight: 600;
   letter-spacing: -2px;
 }
 
-.page-template-default .section .columns .column .price-label {
+.category .section .columns .column .price-label {
   display: flex;
   -webkit-display: flex;
   -moz-display: flex;
@@ -85,79 +85,79 @@
   padding-bottom: 1rem;
 }
 
-.page-template-default .section .columns .column .price-label .price-tag {
+.category .section .columns .column .price-label .price-tag {
   min-width: 7rem;
 }
 
-.page-template-default .section .columns .column .price-label .price-title .title {
+.category .section .columns .column .price-label .price-title .title {
   font-weight: 600;
 }
 
-.page-template-default .section .columns .column .price-label .price-tag p > .size {
+.category .section .columns .column .price-label .price-tag p > .size {
   color: #ef4f23;
 }
 
-.page-template-default .section .container #location .columns .column .icon .fa {
+.category .section .container #location .columns .column .icon .fa {
   color: #ef4f23;
   font-size: 3rem;
 }
 
-.page-template-default .section .container #location .columns .column p {
+.category .section .container #location .columns .column p {
   font-size: .9rem;
 }
 
-.page-template-default .section .container #location .columns .column .title,
-.page-template-default .section .container #location .columns .column address span.street {
+.category .section .container #location .columns .column .title,
+.category .section .container #location .columns .column address span.street {
   font-weight: 600;
   color: #0b0b17;
 }
 
-.page-template-default .section .container #location .columns .column address span.street {
+.category .section .container #location .columns .column address span.street {
   color: #ef4f23;
 }
 
-.page-template-default .section .container #location .columns .column address {
+.category .section .container #location .columns .column address {
   font-style: normal;
 }
 
-.page-template-default footer {
+.category footer {
   padding: 2rem 0;
 }
 
-.page-template-default footer .container .level .level-item:first-child {
+.category footer .container .level .level-item:first-child {
   justify-content: space-between;
 }
 
-.page-template-default footer .container .level .level-item p {
+.category footer .container .level .level-item p {
   font-size: .9rem;
 }
 
-.page-template-default footer .container .level .level-item address {
+.category footer .container .level .level-item address {
   font-style: normal;
   border-right: 1px solid #cdcdcd;
   padding: 0 2rem;
   font-size: .9rem;
 }
 
-.page-template-default footer .container .level .level-item address {
+.category footer .container .level .level-item address {
   color: #ef4f23;
   font-weight: 600;
   text-transform: uppercase;
 }
 
-.page-template-default footer .container .level .level-item address small {
+.category footer .container .level .level-item address small {
   color: black;
   font-weight: 400;
 }
 
-.page-template-default footer .container .level .level-item p {
+.category footer .container .level .level-item p {
   margin: 0 1rem;
   color: #ef4f23;
   font-weight: 600;
   font-size: 1rem;
 }
 
-.page-template-default footer .container .level .level-item p span {
+.category footer .container .level .level-item p span {
   color: #0b0b17;
   font-weight: 600;
   text-transform: uppercase;
