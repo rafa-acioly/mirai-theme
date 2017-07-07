@@ -163,7 +163,7 @@
 	                </div>
 	            </div>
 	        </div>
-	        <div class="column is-6" data-wow-delay="0.5s">
+	        <div class="column is-6">
 	            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d914.5774182139073!2d-46.18266678562846!3d-23.521361934566247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cdd839acb82ba7%3A0xe772543718ffe1db!2sMirai+Japanese+Food!5e0!3m2!1spt-BR!2sbr!4v1499128958235" width="800" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
 	        </div>
 		</div>
