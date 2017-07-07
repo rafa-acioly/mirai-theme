@@ -16,7 +16,7 @@
 
 .category .hero {
   background-image: url('../images/page/g1312.png'), url('../images/page/g1294.png');
-  background-position: center bottom, center top;
+  background-position: center 95%, center top;
   background-repeat: no-repeat;
 }
 

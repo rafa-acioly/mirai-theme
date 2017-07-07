@@ -22,8 +22,7 @@
 	  			<a href="" class="panel-block is-active">
 	  				Entradas
 	  				<span class="icon"><i class="fa fa-angle-right fa-fw"></i></span>
-	  			</a>
-	  			<a href="" class="panel-block">
+	  			</a>	  			<a href="" class="panel-block">
 	  				Pratos Quentes
 	  				<span class="icon"><i class="fa fa-angle-right fa-fw"></i></span>
 	  			</a>
