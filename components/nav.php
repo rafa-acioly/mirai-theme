@@ -3,7 +3,7 @@
     <div class="nav-left">
       <div class="nav-item">
         <a href="#">
-            <img src="<?= get_template_directory_uri(); ?>/assets/images/logo.png" alt="">
+            <img src="<?= get_template_directory_uri(); ?>/assets/images/g22.png" alt="">
         </a>
       </div>
     </div>

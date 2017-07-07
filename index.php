@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="hero is-fullheight introduction" id="home">
+<div class="hero is-fullheight introduction" id="home" xmlns="http://www.w3.org/1999/html">
   <div class="hero-body">
     <div class="container has-text-centered">
         <img src="<?= get_template_directory_uri(); ?>/assets/images/cardapio-illustration.png" alt="ilustração de cardapio">
@@ -114,12 +114,10 @@
                     <p>
                         Aguardamos sua visita.
                     </p>
-                    <p>
-                        <address>
-                            <span class="street">Praça Norival Tavares, 331</span> <br>
-                            Mogi das Cruzes - SP
-                        </address>
-                    </p>
+                    <address>
+                        <span class="street">Praça Norival Tavares, 331</span> <br>
+                        <small>MOGI DAS CRUZES - SP</small>
+                    </address>
                 </div>
             </div>
         </div>
