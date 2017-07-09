@@ -19,35 +19,13 @@
   	<div class="columns">
 	  	<div class="column is-3">
 	  		<nav class="panel">
-	  			<?php do_action('create_cardapio_options'); ?>
+	  			<?php get_template_part('components/loop', 'cardapio-menu') ?>
 	  		</nav>
 	  	</div>
 	  	<main class="column">
 	  		<h1 class="title main-title"><?= get_queried_object()->name; ?></h1>
 	  		<div class="columns is-multiline">
-	  		<?php 
-	  			$postsQuery = array(
-	  				'posts_per_page' => -1, // Seleciona todos os posts
-	  				'cat' => get_queried_object()->term_id,
-	  			);
-	  			query_posts( wp_parse_args($postsQuery) ); 
-	  		?>
-
-	  		<?php if (have_posts()): while(have_posts()): the_post(); ?>
-	  			<article class="column is-half">
-	  				<div class="price-label">
-	  					<div class="price-title">
-	  						<h1 class="title is-6">0001. <?php the_title(); ?></h1>
-	  						<h2 class="subtitle is-6"><?php the_content(); ?></h2>
-	  					</div>
-	  					<div class="price-tag has-text-right">
-	  						<p><span class="size">P</span> <small>R$</small> 21.90</p>
-	  						<p><span class="size">M</span> <small>R$</small> 25.90</p>
-	  						<p><span class="size">G</span> <small>R$</small> 35.90</p>
-	  					</div>
-	  				</div>
-	  			</article>
-	  		<?php endwhile; endif; ?>
+	  			<?php get_template_part('components/loop', 'cardapio-itens'); ?>
 	  		</div>
 	  	</main>
 	  </div>
