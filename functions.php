@@ -120,7 +120,7 @@ function my_login_head() {
   echo "
   <style>
   body.login #login h1 a {
-    background: url('http://placehold.it/350x350') no-repeat scroll center top transparent;
+    background: url('/assets/images/logo.png') no-repeat scroll center top transparent;
     width: 100%;
     height: 120px;
   }
@@ -145,5 +145,44 @@ function rm_widgets_dash() {
   // unset($wp_meta_boxes['dashboard']['side']['core']['dashboard_secondary']);
 
 }
-
 add_action('wp_dashboard_setup', 'rm_widgets_dash' );
+
+
+/**
+ * Cria os links para formarem o menu lateral com as subcategorias da categoria atual.
+ * 
+ * Não remova ou coloque espaços entre a tag final "EOT;", link abaixo com explicação.
+ * https://secure.php.net/manual/pt_BR/language.types.string.php#language.types.string.syntax.heredoc
+ * 
+ * @return String
+ */
+function cardapio_menu()
+{
+  $args = array(
+    'child_of' => get_the_category()[0]->term_id,
+    'hide_empty' => true
+  );
+  
+  $categories =  get_categories( wp_parse_args($args) );
+  
+  foreach($categories as $category):
+    // Gera o link para a categoria
+    $categoryLink = get_category_link($category->term_id);
+
+    /**
+     * Gera a classe "is-active" para ser incluida nos links do cardapio quando o usuario seleciona-la.
+     * @var String
+     */
+    $isActive = (get_queried_object()->term_id == $category->term_id) ? 'is-active' : '';
+
+    // Exibe o link da subcategoria com as configurações necessárias.
+    echo <<<EOT
+    <a href="$categoryLink" 
+    class="panel-block $isActive">
+    $category->name
+    <span class="icon"><i class="fa fa-angle-right fa-fw"></i></span>
+    </a>
+EOT;
+  endforeach;
+}
+add_action('create_cardapio_options', 'cardapio_menu');
