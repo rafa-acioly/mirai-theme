@@ -5,7 +5,7 @@
     <div class="hero-body">
         <div class="container content has-text-centered">
             <img src="<?= get_template_directory_uri(); ?>/assets/images/page/g10846.png" alt="icon entrega" />
-            <h1 class="title is-2">Cardápio Delivery</h1>
+            <h1 class="title is-2"><?= get_the_category()[0]->name; ?></h1>
             <h2 class="subtitle is-4">
             	<span class="fone-ddd">(11)</span> 4796-2121 / 4796-1818
             </h2>
