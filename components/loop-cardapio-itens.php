@@ -1,11 +1,3 @@
-<?php 
-// Configurações para gerar a query de posts da atual categoria
-$postsQuery = array(
-	'posts_per_page' => -1, // Seleciona todos os posts
-	'cat' => get_queried_object()->term_id, // Seleciona os posts que contenham o ID da categoria/subcategoria atual
-);
-query_posts( wp_parse_args($postsQuery) ); ?>
-
 <?php if (have_posts()): while(have_posts()): the_post(); ?>
 	<article class="column is-half">
 		<div class="price-label">
@@ -20,4 +12,8 @@ query_posts( wp_parse_args($postsQuery) ); ?>
 			</div>
 		</div>
 	</article>
-<?php endwhile; endif; ?>
+<?php endwhile; else: ?>
+	<div class="notification is-info">
+		Nenhum prato encontrado nesta categoria.
+	</div>
+<?php endif; ?>

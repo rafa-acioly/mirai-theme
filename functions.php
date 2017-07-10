@@ -146,3 +146,15 @@ function rm_widgets_dash() {
 
 }
 add_action('wp_dashboard_setup', 'rm_widgets_dash' );
+
+
+function retira_paginacao( $query ) {
+  if (is_admin()) {
+    return;
+  }
+
+  if ( is_category() ) {
+    $query->set( 'post_per_page', -1 );
+  }
+}
+add_action( 'pre_get_posts', 'retira_paginacao' );
