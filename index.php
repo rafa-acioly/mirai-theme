@@ -14,7 +14,7 @@
           </a>
       </p>
       <p class="is-hidden-tablet">
-          <a href="" class="button go-to-menu">
+          <a href="<?= get_permalink( get_page_by_path( 'category/delivery' ) ); ?>" class="button go-to-menu">
               Cardapio delivery &nbsp;
               <span class="icon"><i class="fa fa-angle-right fa-fw"></i></span>
           </a>
@@ -42,13 +42,13 @@
                 <h2 class="subtitle is-5">
                     <small>Escolha abaixo uma das opções do cardápio</small>
                 </h2>
-                <a href="#" class="button button-primary">
+                <a href="<?= get_term_link('cardapio-completo', 'category'); ?>" class="button button-primary">
                     Cardápio completo
                     <span class="icons">
                         <i class="fa fa-angle-right fa-fw"></i>
                     </span>
                 </a>
-                <a href="#" class="button button-primary">
+                <a href="<?= get_term_link('delivery', 'category'); ?>" class="button button-primary">
                     Cardápio Delivery &nbsp;
                     <span class="icons">
                         <i class="fa fa-motorcycle fa-fw"></i>

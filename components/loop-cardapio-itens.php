@@ -6,7 +6,7 @@
 				<h2 class="subtitle is-6"><?php the_content(); ?></h2>
 			</div>
 			<div class="price-tag has-text-right">
-				<?php if (!empty(CFS()->get('preco'): foreach(CFS()->get('preco') as $key): ?>
+				<?php if (!empty(CFS()->get('preco'))): foreach(CFS()->get('preco') as $key): ?>
 					<?php if (!empty($key['preco_p'])): ?>
 						<p><span class="size">P</span> <small>R$</small> <?= $key['preco_p']; ?></p>
 					<?php endif; ?>
