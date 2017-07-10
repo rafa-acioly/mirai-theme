@@ -6,9 +6,19 @@
 				<h2 class="subtitle is-6"><?php the_content(); ?></h2>
 			</div>
 			<div class="price-tag has-text-right">
-				<p><span class="size">P</span> <small>R$</small> 21.90</p>
-				<p><span class="size">M</span> <small>R$</small> 25.90</p>
-				<p><span class="size">G</span> <small>R$</small> 35.90</p>
+				<?php foreach(CFS()->get('preco') as $key): ?>
+					<?php if (!empty($key['preco_p'])): ?>
+						<p><span class="size">P</span> <small>R$</small> <?= $key['preco_p']; ?></p>
+					<?php endif; ?>
+
+					<?php if (!empty($key['preco_m'])): ?>
+						<p><span class="size">M</span> <small>R$</small> <?= $key['preco_m']; ?></p>
+					<?php endif; ?>
+					
+					<?php if (!empty($key['preco_g'])): ?>
+						<p><span class="size">G</span> <small>R$</small> <?= $key['preco_g']; ?></p>
+					<?php endif; ?>
+				<?php endforeach; ?>
 			</div>
 		</div>
 	</article>

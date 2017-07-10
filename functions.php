@@ -1,7 +1,5 @@
 <?php
 
-add_theme_support('post-thumbnails');
-
 // Rename Label Post and Itens
 function rename_label() {
   global $menu;
@@ -62,7 +60,7 @@ add_action ('admin_menu', 'clean_menu');
 function remove_menus () {
   remove_menu_page( 'edit.php?post_type=acf' );
 }
-add_action( 'admin_init', 'remove_menus' );
+// add_action( 'admin_init', 'remove_menus' );
 
 // Clear Menu Bar
 function clean_bar() {
