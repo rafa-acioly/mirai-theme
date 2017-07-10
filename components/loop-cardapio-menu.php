@@ -1,4 +1,9 @@
 <?php
+/**
+ * TODO: Buscar o ID da categoria PAI para montar o menu, atualmente
+ * esta buscando o ID da categoria/subcategoria atual e quando acessamos a subcategoria ela não possui "filhos", logo, o menu não aparece.
+ */
+
 $args = array(
 	// Seleciona o ID da categoria atual e usa para pegar todas as subcategorias da mesma
 	'child_of' => get_queried_object()->term_id,
