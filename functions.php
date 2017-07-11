@@ -1,6 +1,6 @@
 <?php
 
-require_once dirname(__FILE__) . '/inc/Dependency.php';
+// require_once dirname(__FILE__) . '/inc/Dependency.php';
 
 // Rename Label Post and Itens
 function rename_label() {
@@ -45,12 +45,12 @@ function clean_menu() {
   unset($submenu['edit.php'][16]);
   remove_menu_page ('upload.php');
   remove_menu_page ('link-manager.php');
-  // remove_menu_page ('edit.php?post_type=page');
-  // remove_menu_page ('options-general.php');
+  remove_menu_page ('edit.php?post_type=page');
+  remove_menu_page ('options-general.php');
   remove_menu_page ('tools.php');
   // remove_menu_page ('edit.php');
   remove_menu_page ('edit-comments.php');
-  // remove_menu_page ('plugins.php');
+  remove_menu_page ('plugins.php');
   remove_menu_page ('themes.php');
   remove_menu_page ('users.php');
 }
@@ -60,9 +60,9 @@ add_action ('admin_menu', 'clean_menu');
  * Remove o plugin Advanced custom field do menu
  */
 function remove_menus () {
-  remove_menu_page( 'edit.php?post_type=acf' );
+  remove_menu_page( 'edit.php?post_type=cfs' );
 }
-// add_action( 'admin_init', 'remove_menus' );
+add_action( 'admin_init', 'remove_menus' );
 
 // Clear Menu Bar
 function clean_bar() {
