@@ -1,6 +1,6 @@
 <?php
 
-// require_once dirname(__FILE__) . '/inc/Dependency.php';
+require_once dirname(__FILE__) . '/inc/Dependency.php';
 
 // Rename Label Post and Itens
 function rename_label() {
