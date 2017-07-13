@@ -23,7 +23,7 @@
 			<h2 class="subtitle is-6" v-html="product.content.rendered"></h2>
 		</div>
 		<div class="price-tag has-text-right">
-			<p><span class="size">P</span> <small>R$</small> 19,00</p>
+			<p v-for="(tag, price) in product.acf"><span class="size">{{ price[price.length - 1].toUpperCase() }}</span> <small>R$</small>{{ tag }}</p>
 		</div>
 	</div>
 </article>
