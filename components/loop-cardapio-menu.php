@@ -11,7 +11,7 @@ $categories =  get_categories( wp_parse_args($args) );
 
 if (!empty($categories)): foreach($categories as $category): ?>
 
-	<a href="<?= get_category_link($category->term_id); ?>" class="panel-block <?= (get_queried_object()->term_id == $category->term_id) ? 'is-active' : ''; ?>">
+	<a @click="findProducts('<?= $category->name; ?>')"  class="panel-block <?= (get_queried_object()->term_id == $category->term_id) ? 'is-active' : ''; ?>">
     	<?= $category->name; ?>
     	<span class="icon"><i class="fa fa-angle-right fa-fw"></i></span>
     </a>

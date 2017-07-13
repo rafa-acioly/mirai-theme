@@ -14,7 +14,7 @@
     </div>
 </div>
 
-<section class="section">
+<section class="section" id="cardapio-app">
   <div class="container">
   	<div class="columns">
 	  	<div class="column is-3">
@@ -23,7 +23,7 @@
 	  		</nav>
 	  	</div>
 	  	<main class="column">
-	  		<h1 class="title main-title"><?= get_queried_object()->name; ?></h1>
+	  		<h1 class="title main-title">{{ cardapioTitle }}</h1>
 	  		<div class="columns is-multiline">
 	  			<?php get_template_part('components/loop', 'cardapio-itens'); ?>
 	  		</div>

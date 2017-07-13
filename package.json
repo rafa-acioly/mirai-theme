@@ -1,0 +1,16 @@
+{
+  "name": "mirai",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/rafa-acioly/mirai-theme.git",
+  "author": "Rafael <aciolyr@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "devDependencies": {
+    "vue": "^2.4.1",
+    "wpapi": "^1.1.2"
+  }
+}
