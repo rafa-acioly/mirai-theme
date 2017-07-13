@@ -10,6 +10,7 @@
     "watch": "webpack --watch"
   },
   "devDependencies": {
-    "vue": "^2.4.1"
+    "vue": "^2.4.1",
+    "wpapi": "^1.1.2"
   }
 }
