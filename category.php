@@ -23,9 +23,6 @@
 	  		</nav>
 	  	</div>
 	  	<main class="column">
-		  	<div class="notification" v-bind:class="[isSearching ? 'is-info' : 'is-hidden' ]">
-				Procurando...
-			</div>
 	  		<h1 class="title main-title">{{ cardapioTitle }}</h1>
 	  		<div class="columns is-multiline">
 	  			<?php get_template_part('components/loop', 'cardapio-itens'); ?>
