@@ -22668,7 +22668,9 @@ new __WEBPACK_IMPORTED_MODULE_0_vue_dist_vue___default.a({
      * @param {Array} prices 
      */
     removeTag (prices) {
-      delete prices.codigoprod;
+      if (prices.codigoprod !== null && prices.codigoprod !== undefined) {
+        delete prices.codigoprod;
+      }
     },
     findProducts (name) {
       this.cardapioTitle = name;
