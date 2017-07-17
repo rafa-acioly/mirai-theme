@@ -13,8 +13,8 @@ new vue({
 
   created: function () {
     console.log('created');
-    // this.wp = new wpapi({endpoint: 'http://r-acioly-dev.umbler.net/wp-json'});
-    this.wp = new wpapi({endpoint: 'http://mirai.dev/index.php/wp-json'});
+    this.wp = new wpapi({endpoint: 'http://r-acioly-dev.umbler.net/wp-json'});
+    // this.wp = new wpapi({endpoint: 'http://mirai.dev/index.php/wp-json'});
   },
 
   methods: {
