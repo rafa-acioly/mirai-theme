@@ -13,17 +13,26 @@ new vue({
 
   created: function () {
     console.log('created');
-    this.wp = new wpapi({endpoint: 'http://r-acioly-dev.umbler.net/wp-json'});
+    // this.wp = new wpapi({endpoint: 'http://r-acioly-dev.umbler.net/wp-json'});
+    this.wp = new wpapi({endpoint: 'http://mirai.dev/index.php/wp-json'});
   },
 
   methods: {
+    /**
+     * Remove o indice "codigoprod" do array
+     * para que o loop entre os preços não exiba ele entre os preços
+     * @param {Array} prices 
+     */
+    removeTag (prices) {
+      delete prices.codigoprod;
+    },
     findProducts (name) {
       this.cardapioTitle = name;
       this.products = [];
       this.isSearching = !this.isSearching;
 
       this.wp.categories().slug(name)
-      .then(categorie => {
+      .then(categorie => { 
         var current = categorie[0];
         if (!current) { return Promise.reject(); }
         return this.wp.posts().categories(current.id);

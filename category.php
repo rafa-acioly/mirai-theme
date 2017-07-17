@@ -26,7 +26,15 @@
 	  		<h1 class="title main-title">{{ cardapioTitle }}</h1>
 	  		<div class="columns is-multiline">
 	  			<?php get_template_part('components/loop', 'cardapio-itens'); ?>
-	  		</div>
+			  </div>
+			<div class="legend">
+				<small>
+					<span class="price">P:</span> Pequeno,
+					<span class="price">M:</span> Médio,
+					<span class="price">G:</span> Grande,
+					<span class="price">U: </span> Único
+				</small>
+			</div>
 	  	</main>
 	  </div>
   </div>

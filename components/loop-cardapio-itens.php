@@ -19,11 +19,22 @@
 <article class="column is-half" v-for="product in products">
 	<div class="price-label">
 		<div class="price-title">
-			<h1 class="title is-6">{{ product.id }}. {{ product.title.rendered }}</h1>
+			<h1 class="title is-6">
+				<!-- Exibe o código do produto e o titulo -->
+				{{ product.acf.codigoprod }}. {{ product.title.rendered }}
+
+				<!-- 
+					Remove o indice com o código do produto do objeto para
+					que o loop nos preços não exiba o código entre eles.
+				-->
+				{{removeTag(product.acf)}}
+			</h1>
 			<h2 class="subtitle is-6" v-html="product.content.rendered"></h2>
 		</div>
 		<div class="price-tag has-text-right">
-			<p v-for="(tag, price) in product.acf"><span class="size">{{ price[price.length - 1].toUpperCase() }}</span> <small>R$</small>{{ tag }}</p>
+			<p v-for="(price, tag) in product.acf" v-if="price.length != 0">
+				<span class="size">{{ tag[tag.length - 1].toUpperCase() }} </span> 
+				<small>R$</small>{{ price }}</p>
 		</div>
 	</div>
 </article>

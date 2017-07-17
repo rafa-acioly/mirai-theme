@@ -120,6 +120,11 @@
   font-style: normal;
 }
 
+.category .section .container .columns .column .legend small .price {
+  color: #ef4f23;
+  font-weight: bolder;
+}
+
 .category footer {
   padding: 2rem 0;
 }
