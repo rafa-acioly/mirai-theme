@@ -22656,9 +22656,7 @@ new __WEBPACK_IMPORTED_MODULE_0_vue_dist_vue___default.a({
   },
 
   created: function () {
-    console.log('created');
-    this.wp = new __WEBPACK_IMPORTED_MODULE_1_wpapi___default.a({endpoint: 'http://r-acioly-dev.umbler.net/wp-json'});
-    // this.wp = new wpapi({endpoint: 'http://mirai.dev/index.php/wp-json'});
+    this.wp = new __WEBPACK_IMPORTED_MODULE_1_wpapi___default.a({endpoint: 'http://miraisushi.com.br/wp-json'});
   },
 
   methods: {
@@ -22670,7 +22668,6 @@ new __WEBPACK_IMPORTED_MODULE_0_vue_dist_vue___default.a({
     removeTag (prices) {
       delete prices.codigoprod;
     },
-    
     findProducts (name) {
       this.cardapioTitle = name;
       this.products = [];
