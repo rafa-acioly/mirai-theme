@@ -31,8 +31,7 @@
 				<small>
 					<span class="price">P:</span> Pequeno,
 					<span class="price">M:</span> Médio,
-					<span class="price">G:</span> Grande,
-					<span class="price">U: </span> Único
+					<span class="price">G:</span> Grande
 				</small>
 			</div>
 	  	</main>

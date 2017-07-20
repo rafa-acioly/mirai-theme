@@ -89,8 +89,21 @@
   min-width: 7rem;
 }
 
+.category .section .columns .column .price-label .price-tag p {
+  font-weight: bold;
+}
+
 .category .section .columns .column .price-label .price-title .title {
   font-weight: 600;
+}
+
+.category .section .columns .column .price-label .price-title .title.is-5 span {
+  color: #ef4f23 !important;
+  font-weight: 600 !important;
+}
+
+.category .section .columns .column .price-label .price-title .subtitle {
+  font-size: .9rem;
 }
 
 .category .section .columns .column .price-label .price-tag p > .size {

@@ -5,6 +5,14 @@ $(document).ready(function () {
    */
   new WOW().init();
 
+  $(document).on('click', '#cardapio-app .container .columns .column .panel .panel-block', function () {
+    var menuOptions = $('#cardapio-app .container .columns .column .panel .panel-block');
+
+    menuOptions.not($(this)).removeClass('is-active');
+
+    $(this).addClass('is-active');
+  });
+
   /**
    * Exibe o menu na versão mobile
    */

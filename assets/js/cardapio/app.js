@@ -22668,8 +22668,8 @@ new __WEBPACK_IMPORTED_MODULE_0_vue_dist_vue___default.a({
     removeTag (prices) {
       delete prices.codigoprod;
     },
-    findProducts (name) {
-      this.cardapioTitle = name;
+    findProducts (name, title) {
+      this.cardapioTitle = title;
       this.products = [];
       this.isSearching = !this.isSearching;
 
@@ -22677,11 +22677,14 @@ new __WEBPACK_IMPORTED_MODULE_0_vue_dist_vue___default.a({
       .then(categorie => { 
         var current = categorie[0];
         if (!current) { return Promise.reject(); }
-        return this.wp.posts().categories(current.id);
+        return this.wp.posts().perPage(50).categories(current.id);
       })
       .then(productsList => {
         productsList.forEach(product => {
           this.products.push(product);
+        });
+        this.products.sort((current, next) => {
+          return parseInt(current.acf.codigoprod) > parseInt(next.acf.codigoprod) ? 1 : -1;
         });
         this.isSearching = !this.isSearching;
       })
